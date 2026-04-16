@@ -5,8 +5,8 @@ After=network.target systemd-udevd.service
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/root/USBSentinel
-ExecStart=/root/USBSentinel/venv/bin/python3 core/sentinel_monitor.py
+WorkingDirectory=/home/dhvanil/USBSentinel
+ExecStart=/home/dhvanil/USBSentinel/venv/bin/python3 core/sentinel_monitor.py
 Restart=on-failure
 RestartSec=5
 StandardOutput=journal
