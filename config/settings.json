@@ -1,0 +1,11 @@
+{
+  "project_name": "USBSentinel",
+  "quarantine_path": "/root/USBSentinel/quarantine/quarantine_store",
+  "log_path": "/root/USBSentinel/reports/audit.log",
+  "risk_threshold_suspicious": 40,
+  "risk_threshold_malicious": 70,
+  "scan_extensions": [".exe", ".bat", ".sh", ".py", ".js", ".vbs", ".ps1", ".elf", ".bin", ".dll", ".so", ".inf", ".cmd"],
+  "notify_user": "root",
+  "auto_block_malicious": true,
+  "auto_block_suspicious": false
+}
